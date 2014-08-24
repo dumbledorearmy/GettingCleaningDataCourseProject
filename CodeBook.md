@@ -66,6 +66,14 @@ This identifies the subject who performed the activity for each window sample. I
 
 Data
 ================================
+Full description of the dataset was obtained from the following link:-
+
+    http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Data was downloaded from the following link:-
+
+    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Transformations
 ================================
+No transformations were done. Steps included combining training and test data for features (only mean and standard deviation features), activity ID's, activity labels and subjects. These were all combined into a single dataset and the melt+dcast function was used to summarize information by Activity Label and Subject. Output is a tidy data file as expected - average of each variable for each activity and each subject.
