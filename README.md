@@ -19,7 +19,9 @@ Alternatively download "run_analysis.R" from my repository to the folder where U
 It should be in the folder .\UCI HAR Dataset or it will not work
 
 Then run the following commands
+    
     source("run_analysis.R")
+    
     run_analysis()
 
 The second command runs the function which generates "tidyoutput.txt" as the required output file in the woring directory
