@@ -34,4 +34,10 @@ The second command runs the function which generates
     "tidyoutput.txt" 
 as the required output file in the working directory
 
-Please see "Codebook.md" for description of "tidyoutput.txt"
+Please see 
+
+      "Codebook.md" 
+
+for description of 
+
+      "tidyoutput.txt"
