@@ -1,7 +1,8 @@
 Getting and Cleaning Data - Course Project
 ================================
 
-Course Project for the Coursera Course - Getting and Cleaning Data (getdata-006)
+Course Project for the Coursera Course - Getting and Cleaning Data 
+    (getdata-006)
 
 Full description of the dataset was obtained from the following link:-
     
