@@ -75,6 +75,6 @@ Data was downloaded from the following link:-
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Transformations
-(Also see comments in "run_analysis.R" file for complete understanding)
 ================================
+        (Also see comments in "run_analysis.R" file for complete understanding)
 Steps included combining training and test data for features (only mean and standard deviation features and cleaning column names), activity ID's, activity labels and subjects. These were all combined into a single dataset and the melt+dcast function was used to summarize information by Activity Label and Subject. Output is a tidy data file as expected - average of each variable for each activity and each subject.
