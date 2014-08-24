@@ -1,4 +1,4 @@
-GettingCleaningDataCourseProject
+Getting and Cleaning Data - CourseProject
 ================================
 
 Course Project for the Coursera Course - Getting and Cleaning Data (getdata-006)
