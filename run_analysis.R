@@ -34,16 +34,16 @@ run_analysis <- function(){
     activityID <- rbind(activity_train,activity_test)
     mergemeanstd$ActivityID <- activityID[,1]
 
-#Read activity labels legends and merge them by the ActivityID in our merged dataset 
-    activitylabels <- read.table(".//activity_labels.txt")
-    colnames(activitylabels) <- c("ActivityID","ActivityLabel")
-    mergemeanstd <- merge(mergemeanstd,activitylabels)
-
 #Read Subject ID information and add as a separate column
     subject_train <- read.table(".//train//subject_train.txt")
     subject_test <- read.table(".//test//subject_test.txt")
     subject <- rbind(subject_train,subject_test)
     mergemeanstd$Subject <- subject[,1]
+
+#Read activity labels legends and merge them by the ActivityID in our merged dataset 
+    activitylabels <- read.table(".//activity_labels.txt")
+    colnames(activitylabels) <- c("ActivityID","ActivityLabel")
+    mergemeanstd <- merge(mergemeanstd,activitylabels,by.x ="ActivityID",by.y="ActivityID",sort = F)
 
 #Remove temporary datasets again to free up memory
     remove(activity_train,activity_test,activityID,activitylabels,subject_train,subject_test,subject)
@@ -51,7 +51,7 @@ run_analysis <- function(){
 #Creates a second, independent tidy data set with the average of each variable for each activity and each subject
     outputvars <- c("ActivityID","ActivityLabel","Subject")
     tidymelt <- melt(mergemeanstd,id.vars = outputvars)
-    tidyData <- dcast(tidymelt, ActivityLabel + Subject ~ variable,mean)
+    tidyData <- dcast(tidymelt, ActivityID + ActivityLabel + Subject ~ variable,mean)
 
 #Writes the output in your working directory as the filename "tidyoutput.txt" 
     write.table(tidyData,"tidyoutput.txt",row.names = FALSE)
