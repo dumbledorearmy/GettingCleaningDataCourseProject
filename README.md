@@ -4,10 +4,12 @@ Getting and Cleaning Data - Course Project
 Course Project for the Coursera Course - Getting and Cleaning Data (getdata-006)
 
 Full description of the dataset was obtained from the following link:-
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+    
+    http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Data was downloaded from the following link:-
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Running Script
 ================================
