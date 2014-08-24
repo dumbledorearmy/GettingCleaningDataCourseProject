@@ -19,12 +19,15 @@ This identifies the subject who performed the activity for each window sample. I
     Variable name ending or containing "Mean" is the mean value for that variable and ending or containing "Std" 
     is the standard deviation value for that variable.
     '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-    
+
+Body Acceleration signals
         tBodyAccMean-XYZ
         tBodyAccStd-XYZ
         
+Gravity Acceleration signals        
         tGravityAccMean-XYZ
         tGravityAccStd-XYZ
+        
         tBodyAccJerkMean-XYZ
         tBodyAccJerkStd-XYZ
         tBodyGyroMean-XYZ
