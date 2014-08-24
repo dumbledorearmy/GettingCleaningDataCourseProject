@@ -1,4 +1,4 @@
-Getting and Cleaning Data - Course Project
+Getting and Cleaning Data - Course Project Readme
 ================================
 
 Course Project for the Coursera Course - Getting and Cleaning Data 
