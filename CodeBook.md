@@ -14,6 +14,7 @@ This is according to the value of ActivityID
 
     Subject
 This identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+    
     Please note - Variable name starting with "t" denotes time variable and "f" denotes freqency variable.
     Variable name ending or containing "Mean" is the mean value for that variable and ending or containing "Std" is      the            standard deviation value for that variable
     
