@@ -20,9 +20,11 @@ This identifies the subject who performed the activity for each window sample. I
     is the standard deviation value for that variable.
     '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+    Body Acceleration Signals
         tBodyAccMean-XYZ
         tBodyAccStd-XYZ
-
+    
+    Gravity Acceleration Signals
         tGravityAccMean-XYZ
         tGravityAccStd-XYZ
 
