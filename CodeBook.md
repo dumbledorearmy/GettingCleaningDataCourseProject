@@ -28,12 +28,15 @@ This identifies the subject who performed the activity for each window sample. I
         tGravityAccMean-XYZ
         tGravityAccStd-XYZ
 
+    Body linear acceleration and angular velocity were derived in time to obtain Jerk signals    
         tBodyAccJerkMean-XYZ
         tBodyAccJerkStd-XYZ
         tBodyGyroMean-XYZ
         tBodyGyroStd-XYZ
         tBodyGyroJerkMean-XYZ
         tBodyGyroJerkStd-XYZ
+        
+    Magnitude of these three-dimensional signals were calculated using the Euclidean norm
         tBodyAccMagMean
         tBodyAccMagStd
         tGravityAccMagMean
@@ -44,6 +47,8 @@ This identifies the subject who performed the activity for each window sample. I
         tBodyGyroMagStd
         tBodyGyroJerkMagMean
         tBodyGyroJerkMagStd
+    
+    Fast Fourier Transform (FFT) was applied to signals above producing similar signals in frequency domain
         fBodyAccMean-XYZ
         fBodyAccStd-XYZ
         fBodyAccJerkMean-XYZ
