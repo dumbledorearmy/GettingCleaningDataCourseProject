@@ -12,6 +12,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Running Script
 ================================
 cloning my repository
+    
     git clone https://github.com/dumbledorearmy/GettingCleaningDataCourseProject.git
 
 Alternatively download "run_analysis.R" from my repository to the folder where UCI HAR Dataset is unzipped
