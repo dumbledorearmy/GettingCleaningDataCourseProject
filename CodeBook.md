@@ -17,7 +17,8 @@ This identifies the subject who performed the activity for each window sample. I
     
     Please note - Variable name starting with "t" denotes time variable and "f" denotes freqency variable.
     Variable name ending or containing "Mean" is the mean value for that variable and ending or containing "Std" 
-    is the standard deviation value for that variable
+    is the standard deviation value for that variable.
+    '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
     
         tBodyAccMean-XYZ
         tBodyAccStd-XYZ
