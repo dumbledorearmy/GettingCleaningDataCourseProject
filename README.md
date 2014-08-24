@@ -25,6 +25,9 @@ Then run the following commands
     
     run_analysis()
 
-The second command runs the function which generates "tidyoutput.txt" as the required output file in the working directory
+The second command runs the function which generates 
+
+"tidyoutput.txt" 
+as the required output file in the working directory
 
 Please see "Codebook.md" for description of "tidyoutput.txt"
