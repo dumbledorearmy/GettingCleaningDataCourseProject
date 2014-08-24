@@ -1,7 +1,7 @@
 GettingCleaningDataCourseProject
 ================================
 
-Course Project for the Coursera Course - Getting and Cleaning Data
+Course Project for the Coursera Course - Getting and Cleaning Data (getdata-006)
 
 Full description of the dataset was obtained from the following link:-
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -24,6 +24,6 @@ Then run the following commands
     
     run_analysis()
 
-The second command runs the function which generates "tidyoutput.txt" as the required output file in the woring directory
+The second command runs the function which generates "tidyoutput.txt" as the required output file in the working directory
 
 Please see "Codebook.md" for description of "tidyoutput.txt"
