@@ -12,5 +12,46 @@ This is one of the following - 1,2,3,4,5 and 6.
 This is according to the value of ActivityID
 1 - WALKING, 2 - WALKING_UPSTAIRS, 3 - WALKING_DOWNSTAIRS, 4 - SITTING, 5 - STANDING, 6 - LAYING
 
+    Subject
+This identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+        tBodyAccMean-XYZ
+        tBodyAccStd-XYZ
+        tGravityAccMean-XYZ
+        tGravityAccStd-XYZ
+        tBodyAccJerkMean-XYZ
+        tBodyAccJerkStd-XYZ
+        tBodyGyroMean-XYZ
+        tBodyGyroStd-XYZ
+        tBodyGyroJerkMean-XYZ
+        tBodyGyroJerkStd-XYZ
+        tBodyAccMagMean
+        tBodyAccMagStd
+        tGravityAccMagMean
+        tGravityAccMagStd
+        tBodyAccJerkMagMean
+        tBodyAccJerkMagStd
+        tBodyGyroMagMean
+        tBodyGyroMagStd
+        tBodyGyroJerkMagMean
+        tBodyGyroJerkMagStd
+        fBodyAccMean-XYZ
+        fBodyAccStd-XYZ
+        fBodyAccJerkMean-XYZ
+        fBodyAccJerkStd-XYZ
+        fBodyGyroMean-XYZ
+        fBodyGyroStd-XYZ
+        fBodyAccMagMean
+        fBodyAccMagStd
+        fBodyAccJerkMagMean
+        fBodyAccJerkMagStd
+        fBodyGyroMagMean
+        fBodyGyroMagStd
+        fBodyGyroJerkMagMean
+        fBodyGyroJerkMagStd
+
 Data
+================================
+
 Transformations
+================================
